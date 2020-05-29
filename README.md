@@ -17,12 +17,27 @@ Based on my personnal researches.
 - [Power Management - The Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/power/index.html)
 - [Energy models of CPUs - The Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/power/energy-model.html)
 - [Kernel driver power_meter](https://www.kernel.org/doc/html/latest/hwmon/acpi_power_meter.html)
+- [Pour une sobriété numérique - The Shift Projectl](https://theshiftproject.org/article/pour-une-sobriete-numerique-rapport-shift/)
+- [http://gauthierroussilhe.com/fr/posts/convert-low-tech](http://gauthierroussilhe.com/fr/posts/convert-low-tech#energy)
+
+### Organizations
+
+- [GreenIT](https://www.greenit.fr/)
+- [all2all](http://www.all2all.org)
 
 ### Tools
 
 - [PowerAPI (software)](https://powerapi-ng.github.io): middleware toolkit for building software-defined power meters
 - [Bittwatts (software)](https://github.com/Spirals-Team/bitwatts): software-defined power meter for virtualized environments
 - [Hwloc tutorial](https://www.open-mpi.org/projects/hwloc/tutorials/20120702-POA-hwloc-tutorial.html): hierarchical view of the machine (useful to spot consumption improvements)
+
+### Companies
+
+- [Greenspector](https://greenspector.com/en/home/)
+- [EcoHost: Premium Eco-Friendly Website Hosting](https://www.eco-host.co/)
+- [Infomaniak](https://www.infomaniak.com)
+- [Aiso](https://www.aiso.net/)
+- [GreenGeeks](https://www.greengeeks.com/)
 
 ## Energy production and smart grids
 
