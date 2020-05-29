@@ -24,6 +24,8 @@ Based on my personnal researches.
 
 - [GreenIT](https://www.greenit.fr/)
 - [all2all](http://www.all2all.org)
+- [Greenlab](https://greenlab.di.uminho.pt/)
+- [Spirals](https://team.inria.fr/spirals/)
 
 ### Tools
 
