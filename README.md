@@ -30,6 +30,7 @@ Based on my personnal researches.
 - [all2all](http://www.all2all.org)
 - [Greenlab](https://greenlab.di.uminho.pt/)
 - [Spirals](https://team.inria.fr/spirals/)
+- [The Shift Project](https://theshiftproject.org/)
 
 ### Tools
 
@@ -44,6 +45,8 @@ Based on my personnal researches.
 - [Infomaniak](https://www.infomaniak.com)
 - [Aiso](https://www.aiso.net/)
 - [GreenGeeks](https://www.greengeeks.com/)
+- [Datacenterlight](https://datacenterlight.ch/) + [Ungleich](https://ungleich.ch/)
+- [Datafarm](https://datafarm.io/)
 
 ## Energy production and smart grids
 
