@@ -23,6 +23,9 @@ Based on my personnal researches.
 - [The carbon footprint of streaming video: fact-checking the headlines](https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines)
 - [Digitalization and energy](https://www.iea.org/reports/digitalisation-and-energy)
 - [MOOC INR - Sensibilisation au numérique responsable](https://www.academie-nr.org/sensibilisation/#/)
+- [Green is the new web - Medium Ippon](https://medium.com/ippon/green-is-the-new-web-75d56226a4b)
+- [Concilier architecture data et écologie - Blog Ippon](https://blog.ippon.fr/2019/12/16/concilier-architecture-data-et-ecologie-cest-possible-une-introduction-au-green-it/)
+- [Green Data is the new Big Data](https://www.youtube.com/watch?v=gIb2KeSINp4)
 
 ### Organizations
 
