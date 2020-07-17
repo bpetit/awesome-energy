@@ -19,10 +19,10 @@ Based on my personnal researches.
 - [Kernel driver power_meter](https://www.kernel.org/doc/html/latest/hwmon/acpi_power_meter.html)
 - [Pour une sobriété numérique - The Shift Projectl](https://theshiftproject.org/article/pour-une-sobriete-numerique-rapport-shift/)
 - [http://gauthierroussilhe.com/fr/posts/convert-low-tech](http://gauthierroussilhe.com/fr/posts/convert-low-tech#energy)
-- [https://www.iea.org/reports/data-centres-and-data-transmission-networks#resources](Data Centres and Data Transmission Networks)
-- [https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines](The carbon footprint of streaming video: fact-checking the headlines)
-- [https://www.iea.org/reports/digitalisation-and-energy](Digitalization and energy)
-- [https://www.academie-nr.org/sensibilisation/#/](MOOC INR - Sensibilisation au numérique responsable)
+- [Data Centres and Data Transmission Networks](https://www.iea.org/reports/data-centres-and-data-transmission-networks#resources)
+- [The carbon footprint of streaming video: fact-checking the headlines](https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines)
+- [Digitalization and energy](https://www.iea.org/reports/digitalisation-and-energy)
+- [MOOC INR - Sensibilisation au numérique responsable](https://www.academie-nr.org/sensibilisation/#/)
 
 ### Organizations
 
