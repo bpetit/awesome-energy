@@ -26,6 +26,7 @@ Based on my personnal researches.
 - [Green is the new web - Medium Ippon](https://medium.com/ippon/green-is-the-new-web-75d56226a4b)
 - [Concilier architecture data et écologie - Blog Ippon](https://blog.ippon.fr/2019/12/16/concilier-architecture-data-et-ecologie-cest-possible-une-introduction-au-green-it/)
 - [Green Data is the new Big Data](https://www.youtube.com/watch?v=gIb2KeSINp4)
+- [La sobriété numérique oui mais pourquoi faire ?](https://signal.eu.org/blog/2020/07/15/la-sobriete-numerique-oui-mais-pour-quoi-faire/)
 
 ### Organizations
 
