@@ -27,6 +27,7 @@ Based on my personnal researches.
 - [Concilier architecture data et écologie - Blog Ippon](https://blog.ippon.fr/2019/12/16/concilier-architecture-data-et-ecologie-cest-possible-une-introduction-au-green-it/)
 - [Green Data is the new Big Data](https://www.youtube.com/watch?v=gIb2KeSINp4)
 - [La sobriété numérique oui mais pourquoi faire ?](https://signal.eu.org/blog/2020/07/15/la-sobriete-numerique-oui-mais-pour-quoi-faire/)
+- [The Entire World's Carbon Emissions Will Finally Be Trackable In Real Time ](https://news.slashdot.org/story/20/07/17/2057205/the-entire-worlds-carbon-emissions-will-finally-be-trackable-in-real-time)
 
 ### Organizations
 
