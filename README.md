@@ -2,7 +2,7 @@
 
 Based on my personnal researches.
 
-## ICT energy onsumption
+## ICT energy consumption
 
 ### Publications
 
@@ -37,6 +37,22 @@ Based on my personnal researches.
 - [Spirals](https://team.inria.fr/spirals/)
 - [The Shift Project](https://theshiftproject.org/)
 
+### Companies
+
+- [Greenspector](https://greenspector.com/en/home/)
+- [EcoHost: Premium Eco-Friendly Website Hosting](https://www.eco-host.co/)
+- [Infomaniak](https://www.infomaniak.com)
+- [Aiso](https://www.aiso.net/)
+- [GreenGeeks](https://www.greengeeks.com/)
+- [Datacenterlight](https://datacenterlight.ch/) + [Ungleich](https://ungleich.ch/)
+- [Datafarm](https://datafarm.io/)
+
+### Energy production and smart grids
+
+- [Stanford bits and watts program publications](https://energy.stanford.edu/bitsandwatts/research/publications)
+
+## Measure power usage on GNU/Linux
+
 ### Tools
 
 - [PowerAPI (software)](https://powerapi-ng.github.io): middleware toolkit for building software-defined power meters
@@ -59,17 +75,3 @@ Based on my personnal researches.
 - [Intel Introduces PowerClamp Driver For Linux](https://www.phoronix.com/scan.php?page=news_item&px=MTIyOTE)
 - [Linux kernel archive: RAPL (Running Average Power Limit) driver](http://lkml.iu.edu/hypermail/linux/kernel/1304.0/01322.html)
 - [Turbostat manpage](https://www.linux.org/docs/man8/turbostat.html)
-
-### Companies
-
-- [Greenspector](https://greenspector.com/en/home/)
-- [EcoHost: Premium Eco-Friendly Website Hosting](https://www.eco-host.co/)
-- [Infomaniak](https://www.infomaniak.com)
-- [Aiso](https://www.aiso.net/)
-- [GreenGeeks](https://www.greengeeks.com/)
-- [Datacenterlight](https://datacenterlight.ch/) + [Ungleich](https://ungleich.ch/)
-- [Datafarm](https://datafarm.io/)
-
-## Energy production and smart grids
-
-- [Stanford bits and watts program publications](https://energy.stanford.edu/bitsandwatts/research/publications)
