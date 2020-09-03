@@ -42,6 +42,23 @@ Based on my personnal researches.
 - [PowerAPI (software)](https://powerapi-ng.github.io): middleware toolkit for building software-defined power meters
 - [Bittwatts (software)](https://github.com/Spirals-Team/bitwatts): software-defined power meter for virtualized environments
 - [Hwloc tutorial](https://www.open-mpi.org/projects/hwloc/tutorials/20120702-POA-hwloc-tutorial.html): hierarchical view of the machine (useful to spot consumption improvements)
+- [Intel PCM](https://software.intel.com/content/www/us/en/develop/articles/intel-performance-counter-monitor.html)
+- [Reading RAPL energy measurements from Linux](http://web.eece.maine.edu/~vweaver/projects/rapl/)
+- [Intel® 64 and IA-32 Architectures Software Developer Manuals](https://software.intel.com/content/www/us/en/develop/articles/intel-sdm.html)
+- [PAPI](https://icl.utk.edu/papi/), [source](https://bitbucket.org/icl/papi/src/master/) and its [manual](https://linux.die.net/man/3/papi)
+- [RAPL msr interface](https://community.intel.com/t5/Software-Tuning-Performance/RAPL-MSR-Interface/td-p/938123)
+- [Brendan Gregg's insights](http://www.brendangregg.com/linuxperf.html)
+
+### Random
+
+- [Running Average Power Limit – RAPL](https://01.org/blogs/2014/running-average-power-limit-%E2%80%93-rapl)
+- [RAPL, DRAM and PCM](https://community.intel.com/t5/Software-Tuning-Performance/RAPL-DRAM-and-PCM/td-p/942608)
+- [RAPL for energy measurements](https://community.intel.com/t5/Software-Tuning-Performance/RAPL-for-energy-measurement/td-p/919723)
+- [RAPL: memory power estimation and capping](https://dl.acm.org/doi/10.1145/1840845.1840883)
+- [Understanding Intel's RAPL driver on Linux](https://www.phoronix.com/scan.php?page=news_item&px=MTcxMjY)
+- [Intel Introduces PowerClamp Driver For Linux](https://www.phoronix.com/scan.php?page=news_item&px=MTIyOTE)
+- [Linux kernel archive: RAPL (Running Average Power Limit) driver](http://lkml.iu.edu/hypermail/linux/kernel/1304.0/01322.html)
+- [Turbostat manpage](https://www.linux.org/docs/man8/turbostat.html)
 
 ### Companies
 
