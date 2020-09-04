@@ -64,6 +64,7 @@ Based on my personnal researches.
 - [PAPI](https://icl.utk.edu/papi/), [source](https://bitbucket.org/icl/papi/src/master/) and its [manual](https://linux.die.net/man/3/papi)
 - [RAPL msr interface](https://community.intel.com/t5/Software-Tuning-Performance/RAPL-MSR-Interface/td-p/938123)
 - [Brendan Gregg's insights](http://www.brendangregg.com/linuxperf.html)
+- [perfmon2](http://perfmon2.sourceforge.net/)
 
 ### Random
 
