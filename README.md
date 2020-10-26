@@ -65,6 +65,9 @@ Based on my personnal researches.
 - [RAPL msr interface](https://community.intel.com/t5/Software-Tuning-Performance/RAPL-MSR-Interface/td-p/938123)
 - [Brendan Gregg's insights](http://www.brendangregg.com/linuxperf.html)
 - [perfmon2](http://perfmon2.sourceforge.net/)
+- [Colin Ian King's power management tools (including powerstat)](https://launchpad.net/~colin-king/+archive/ubuntu/powermanagement)
+- [s-tui](https://github.com/amanusk/s-tui)
+- [Intel Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html#attachment-heading)
 
 ### Random
 
