@@ -68,6 +68,7 @@ Based on my personnal researches.
 - [Colin Ian King's power management tools (including powerstat)](https://launchpad.net/~colin-king/+archive/ubuntu/powermanagement)
 - [s-tui](https://github.com/amanusk/s-tui)
 - [Intel Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html#attachment-heading)
+- [energymon](https://github.com/energymon/energymon)
 
 ### Random
 
