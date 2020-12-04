@@ -69,6 +69,7 @@ Based on my personnal researches.
 - [s-tui](https://github.com/amanusk/s-tui)
 - [Intel Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html#attachment-heading)
 - [energymon](https://github.com/energymon/energymon)
+- [codecarbon](https://github.com/mlco2/codecarbon): python library to measure CPU/GPU consumption of machine learning or any ressource intensive python code
 
 ### Random
 
