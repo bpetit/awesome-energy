@@ -70,6 +70,8 @@ Based on my personnal researches.
 - [Intel Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html#attachment-heading)
 - [energymon](https://github.com/energymon/energymon)
 - [codecarbon](https://github.com/mlco2/codecarbon): python library to measure CPU/GPU consumption of machine learning or any ressource intensive python code
+- [hostghost](https://gitlab.com/localg-host/hostghost): to measure power consumption thanks to wattmeter and raspberry pi
+- [scaphandre](https://github.com/hubblo-org/scaphandre/): Electrical power consumption metrology agent. Let scaph dive and bring back the metrics that will help you make your systems and applications more sustainable !
 
 ### Random
 
