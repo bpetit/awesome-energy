@@ -51,6 +51,11 @@ Based on my personnal researches.
 
 - [Stanford bits and watts program publications](https://energy.stanford.edu/bitsandwatts/research/publications)
 
+## Measure power with a physical device
+
+- [Apprenez à utiliser l'api locale Philips Hue... - NextImpact](https://www.nextinpact.com/article/66882/apprenez-a-utiliser-api-locale-philips-hue-et-a-utiliser-dans-premier-script-python)
+- [Retour sur la gamme Hue Philips et quelques applications... - NextImpact](https://www.nextinpact.com/article/66883/retour-sur-gamme-hue-philips-et-quelques-applications-creees-par-communaute)
+
 ## Measure power usage on GNU/Linux
 
 ### Tools
