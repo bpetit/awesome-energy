@@ -51,6 +51,10 @@ Based on my personnal researches.
 
 - [Stanford bits and watts program publications](https://energy.stanford.edu/bitsandwatts/research/publications)
 
+### Tech blog posts
+
+- [Firefox 104 energy measurements - Green Coding Berlin](https://www.green-coding.org/blog/firefox-104-energy-measurements/)
+
 ## Measure power with a physical device
 
 - [Apprenez à utiliser l'api locale Philips Hue... - NextImpact](https://www.nextinpact.com/article/66882/apprenez-a-utiliser-api-locale-philips-hue-et-a-utiliser-dans-premier-script-python)
@@ -78,6 +82,7 @@ Based on my personnal researches.
 - [hostghost](https://gitlab.com/localg-host/hostghost): to measure power consumption thanks to wattmeter and raspberry pi
 - [scaphandre](https://github.com/hubblo-org/scaphandre/): Electrical power consumption metrology agent. Let scaph dive and bring back the metrics that will help you make your systems and applications more sustainable !
 - [arduino wattmeter](https://circuitdigest.com/microcontroller-projects/arduino-wattmeter-to-measure-voltage-current-power-consumption)
+- [Green metrics tools from Green Coding Berling](https://github.com/green-coding-berlin/green-metrics-tool)
 
 ### Random
 
@@ -89,3 +94,12 @@ Based on my personnal researches.
 - [Intel Introduces PowerClamp Driver For Linux](https://www.phoronix.com/scan.php?page=news_item&px=MTIyOTE)
 - [Linux kernel archive: RAPL (Running Average Power Limit) driver](http://lkml.iu.edu/hypermail/linux/kernel/1304.0/01322.html)
 - [Turbostat manpage](https://www.linux.org/docs/man8/turbostat.html)
+
+## Measure power usage on Windows
+
+- [Energy Meter Interface](https://docs.microsoft.com/en-us/windows-hardware/drivers/powermeter/energy-meter-interface)
+
+## Measure power usage on MacOS
+
+- [Task info code should give access to data per process](https://github.com/apple/darwin-xnu/blob/8f02f2a044b9bb1ad951987ef5bab20ec9486310/osfmk/mach/task_info.h#L464)
+- [How firefox uses task info](https://hg.mozilla.org/mozilla-central/file/tip/tools/profiler/core/PowerCounters-mac.cpp#l35)
