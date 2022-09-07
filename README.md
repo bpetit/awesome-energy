@@ -83,6 +83,7 @@ Based on my personnal researches.
 - [scaphandre](https://github.com/hubblo-org/scaphandre/): Electrical power consumption metrology agent. Let scaph dive and bring back the metrics that will help you make your systems and applications more sustainable !
 - [arduino wattmeter](https://circuitdigest.com/microcontroller-projects/arduino-wattmeter-to-measure-voltage-current-power-consumption)
 - [Green metrics tools from Green Coding Berling](https://github.com/green-coding-berlin/green-metrics-tool)
+- [Sentry Hardware OpenTelemetry Collector](https://www.sentrysoftware.com/docs/hws-otel-collector/2.0.00/index.html)
 
 ### Random
 
