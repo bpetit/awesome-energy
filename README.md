@@ -63,6 +63,7 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 
 - [Apprenez à utiliser l'api locale Philips Hue... - NextImpact](https://www.nextinpact.com/article/66882/apprenez-a-utiliser-api-locale-philips-hue-et-a-utiliser-dans-premier-script-python)
 - [Retour sur la gamme Hue Philips et quelques applications... - NextImpact](https://www.nextinpact.com/article/66883/retour-sur-gamme-hue-philips-et-quelques-applications-creees-par-communaute)
+- [Best smart plug for energy monitoring with api - Reddit](https://www.reddit.com/r/homeautomation/comments/f87iho/best_smart_plug_for_energy_monitoring_with_api/)
 
 ## Measure power usage by software
 
