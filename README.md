@@ -48,6 +48,8 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 - [Datacenterlight](https://datacenterlight.ch/) + [Ungleich](https://ungleich.ch/)
 - [Datafarm](https://datafarm.io/)
 - [Hubblo](https://hubblo.org)
+- [Easyvirt](https://www.easyvirt.com/)
+- [Sopht](https://sopht.com/)
 
 ### Energy production and smart grids
 
