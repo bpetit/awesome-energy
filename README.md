@@ -36,6 +36,7 @@ Based on my personnal researches.
 - [Greenlab](https://greenlab.di.uminho.pt/)
 - [Spirals](https://team.inria.fr/spirals/)
 - [The Shift Project](https://theshiftproject.org/)
+- [Boavizta](https://boavizta.org/en)
 
 ### Companies
 
@@ -46,6 +47,7 @@ Based on my personnal researches.
 - [GreenGeeks](https://www.greengeeks.com/)
 - [Datacenterlight](https://datacenterlight.ch/) + [Ungleich](https://ungleich.ch/)
 - [Datafarm](https://datafarm.io/)
+- [Hubblo](https://hubblo.org)
 
 ### Energy production and smart grids
 
@@ -60,9 +62,11 @@ Based on my personnal researches.
 - [Apprenez à utiliser l'api locale Philips Hue... - NextImpact](https://www.nextinpact.com/article/66882/apprenez-a-utiliser-api-locale-philips-hue-et-a-utiliser-dans-premier-script-python)
 - [Retour sur la gamme Hue Philips et quelques applications... - NextImpact](https://www.nextinpact.com/article/66883/retour-sur-gamme-hue-philips-et-quelques-applications-creees-par-communaute)
 
-## Measure power usage on GNU/Linux
+## Measure power usage by software
 
-### Tools
+### GNU/Linux
+
+#### Tools
 
 - [PowerAPI (software)](https://powerapi-ng.github.io): middleware toolkit for building software-defined power meters
 - [Bittwatts (software)](https://github.com/Spirals-Team/bitwatts): software-defined power meter for virtualized environments
@@ -85,7 +89,9 @@ Based on my personnal researches.
 - [Green metrics tools from Green Coding Berling](https://github.com/green-coding-berlin/green-metrics-tool)
 - [Sentry Hardware OpenTelemetry Collector](https://www.sentrysoftware.com/docs/hws-otel-collector/2.0.00/index.html)
 
-### Random
+#### Internals
+
+##### RAPL
 
 - [Running Average Power Limit – RAPL](https://01.org/blogs/2014/running-average-power-limit-%E2%80%93-rapl)
 - [RAPL, DRAM and PCM](https://community.intel.com/t5/Software-Tuning-Performance/RAPL-DRAM-and-PCM/td-p/942608)
@@ -96,11 +102,26 @@ Based on my personnal researches.
 - [Linux kernel archive: RAPL (Running Average Power Limit) driver](http://lkml.iu.edu/hypermail/linux/kernel/1304.0/01322.html)
 - [Turbostat manpage](https://www.linux.org/docs/man8/turbostat.html)
 
-## Measure power usage on Windows
+##### RAPL MMIO
+
+- [MMIO on wikipedia](https://en.wikipedia.org/wiki/Memory-mapped_I/O_and_port-mapped_I/O)
+- [early 2023 patch for MMIO that affects RAPL](https://lwn.net/Articles/929547/)
+- [Explanations on TPMI driver](https://www.phoronix.com/news/Intel-TPMI-Linux-Driver)
+
+### Windows
+
+#### Tools
 
 - [Energy Meter Interface](https://docs.microsoft.com/en-us/windows-hardware/drivers/powermeter/energy-meter-interface)
+- [Windows RAPL (MSR) Driver](https://github.com/hubblo-org/windows-rapl-driver/)
 
-## Measure power usage on MacOS
+### MacOS
+
+#### Internals
 
 - [Task info code should give access to data per process](https://github.com/apple/darwin-xnu/blob/8f02f2a044b9bb1ad951987ef5bab20ec9486310/osfmk/mach/task_info.h#L464)
 - [How firefox uses task info](https://hg.mozilla.org/mozilla-central/file/tip/tools/profiler/core/PowerCounters-mac.cpp#l35)
+
+## Improve energy measurements/estimations : collaborative science
+
+- [Energizta project](https://github.com/Boavizta/Energizta/)
