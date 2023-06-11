@@ -95,6 +95,7 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 
 ##### RAPL
 
+- [Structured explanations from Scaphandre documentation](https://hubblo-org.github.io/scaphandre-documentation/explanations/about-containers.html)
 - [Running Average Power Limit – RAPL](https://01.org/blogs/2014/running-average-power-limit-%E2%80%93-rapl)
 - [RAPL, DRAM and PCM](https://community.intel.com/t5/Software-Tuning-Performance/RAPL-DRAM-and-PCM/td-p/942608)
 - [RAPL for energy measurements](https://community.intel.com/t5/Software-Tuning-Performance/RAPL-for-energy-measurement/td-p/919723)
@@ -103,6 +104,28 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 - [Intel Introduces PowerClamp Driver For Linux](https://www.phoronix.com/scan.php?page=news_item&px=MTIyOTE)
 - [Linux kernel archive: RAPL (Running Average Power Limit) driver](http://lkml.iu.edu/hypermail/linux/kernel/1304.0/01322.html)
 - [Turbostat manpage](https://www.linux.org/docs/man8/turbostat.html)
+- [https://zhenkai-zhang.github.io/papers/rapl.pdf](https://zhenkai-zhang.github.io/papers/rapl.pdf)
+- Scaphandre issues/threads about RAPL : [116](https://github.com/hubblo-org/scaphandre/issues/116), [241](https://github.com/hubblo-org/scaphandre/issues/241), [140](https://github.com/hubblo-org/scaphandre/issues/140), [289](https://github.com/hubblo-org/scaphandre/issues/289), [117](https://github.com/hubblo-org/scaphandre/issues/117), [25](https://github.com/hubblo-org/scaphandre/issues/25), [316](https://github.com/hubblo-org/scaphandre/issues/316), [318](https://github.com/hubblo-org/scaphandre/issues/318)
+
+##### RAPL PSYS Domain (WIP)
+
+- [Kepler documentation](https://sustainable-computing.io/design/metrics/) says PSYS "is the energy consumed by the "System on a chipt" (SOC)."
+"Generally, this metric is the host energy consumption (from acpi)." but also "Generally, this metric is the **host energy consumption (from acpi) less the RAPL Package and DRAM**."
+- [https://www.arcsi.fr/doc/platypus.pdf](https://www.arcsi.fr/doc/platypus.pdf) says PSYS is "covering the entire SoC.".
+- http://www.micheledellipaoli.com/documents/EnergyConsumptionAnalysis.pdf says "PSys: (introduced with Intel Skylake) monitors and controls the thermal and power specifications of the entire SoC and it is useful especially when the source of the power consumption is neither the CPU nor the GPU. For multi-socket server systems, each socket reports its own RAPL values."
+- https://hal.science/hal-03809858/document says "PSys. Domain available on some Intel architectures, to monitor and control the thermal end power specifications of the entire system on the chip (SoC), instead of just CPU or GPU. It includes the power consumption of the package domain, System Agent, PCH, eDRAM, and a few more domains on a single-socket SoC"
+- PSYS MSR is "MSR_PLATFORM_ENERGY_STATUS" : https://copyprogramming.com/howto/perf-power-consumption-measure-how-does-it-work
+- https://pyjoules.readthedocs.io/en/stable/devices/intel_cpu.html
+- Problems of RAPL on Saphire Rapids : https://community.intel.com/t5/Software-Tuning-Performance/RAPL-quirks-on-Sapphire-Rapids/td-p/1446761
+- Misc info on RAPL: https://web.eece.maine.edu/~vweaver/projects/rapl/
+- PSYS MSR have a different layout than PKG and dram : https://patchwork.kernel.org/project/linux-pm/patch/20211207131734.2607104-1-rui.zhang@intel.com/
+- https://edc.intel.com/content/www/us/en/design/ipla/software-development-platforms/client/platforms/alder-lake-desktop/12th-generation-intel-core-processors-datasheet-volume-1-of-2/010/power-management/ ==> intel doc about thermal and power management
+- https://edc.intel.com/content/www/us/en/design/ipla/software-development-platforms/client/platforms/alder-lake-desktop/12th-generation-intel-core-processors-datasheet-volume-1-of-2/002/platform-power-control/ ==> about psys
+https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html ==> intel software developer manual
+- CVE-8694/8695 and mitigation by intel : https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/advisory-guidance/running-average-power-limit-energy-reporting.html
+- Patch in the kernel: https://groups.google.com/g/linux.kernel/c/x_7RbqcrxAs
+- Patch in powercap: https://lkml.iu.edu/hypermail/linux/kernel/1603.2/02415.html and https://lkml.kernel.org/lkml/1460930581-29748-1-git-send-email-srinivas.pandruvada@linux.intel.com/T/
+- Random: https://stackoverflow.com/questions/55956287/perf-power-consumption-measure-how-does-it-work
 
 ##### RAPL MMIO
 
@@ -123,6 +146,21 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 
 - [Task info code should give access to data per process](https://github.com/apple/darwin-xnu/blob/8f02f2a044b9bb1ad951987ef5bab20ec9486310/osfmk/mach/task_info.h#L464)
 - [How firefox uses task info](https://hg.mozilla.org/mozilla-central/file/tip/tools/profiler/core/PowerCounters-mac.cpp#l35)
+
+### Bulk links (WIP) for estimating power usage of other components than CPU/RAM/GPU
+
+#### Disks (ssd/hdd/nvme)
+
+- https://www.infoq.com/articles/power-consumption-servers/
+- [Description of SSDs and HDDs power usage mechanics](https://superuser.com/questions/1545690/why-do-2-5-ssds-use-more-power-than-2-5-hdds)
+- https://computerhardwareparts.com/ssd-vs-hdd-power-consumption/
+- [Be careful to disk states/activity](https://superuser.com/questions/565653/how-much-power-does-a-hard-drive-use)
+- https://www.anandtech.com/show/6725/the-full-intel-ssd-525-review-30gb-60gb-120gb-180gb-240gb-tested/7
+- https://innobytech.com/does-ssd-need-power/
+- https://devicetests.com/how-many-watts-does-an-ssd-use
+- https://digitalworld839.com/hdd-vs-ssd-power-consumption/
+- https://computerhardwareparts.com/ssd-vs-hdd-power-consumption/
+- https://www.officexpress.fr/pdf-techdoc/256SSD370.pdf
 
 ## Improve energy measurements/estimations : collaborative science
 
