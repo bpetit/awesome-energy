@@ -91,8 +91,12 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 - [arduino wattmeter](https://circuitdigest.com/microcontroller-projects/arduino-wattmeter-to-measure-voltage-current-power-consumption)
 - [Green metrics tools from Green Coding Berling](https://github.com/green-coding-berlin/green-metrics-tool)
 - [Sentry Hardware OpenTelemetry Collector](https://www.sentrysoftware.com/docs/hws-otel-collector/2.0.00/index.html)
+- [PowerJoular](https://github.com/joular/powerjoular)
 
-#### Internals
+#### Tools for specific contexts
+
+- [JoulaJX](https://github.com/joular/joularjx)
+- [Kepler](https://github.com/sustainable-computing-io/kepler)
 
 ##### RAPL
 
