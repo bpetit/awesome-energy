@@ -108,7 +108,7 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 - [https://zhenkai-zhang.github.io/papers/rapl.pdf](https://zhenkai-zhang.github.io/papers/rapl.pdf)
 - Scaphandre issues/threads about RAPL : [116](https://github.com/hubblo-org/scaphandre/issues/116), [241](https://github.com/hubblo-org/scaphandre/issues/241), [140](https://github.com/hubblo-org/scaphandre/issues/140), [289](https://github.com/hubblo-org/scaphandre/issues/289), [117](https://github.com/hubblo-org/scaphandre/issues/117), [25](https://github.com/hubblo-org/scaphandre/issues/25), [316](https://github.com/hubblo-org/scaphandre/issues/316), [318](https://github.com/hubblo-org/scaphandre/issues/318)
 
-##### RAPL PSYS Domain (WIP)
+##### RAPL PSYS Domain
 
 - [Kepler documentation](https://sustainable-computing.io/design/metrics/) says PSYS "is the energy consumed by the "System on a chipt" (SOC)."
 "Generally, this metric is the host energy consumption (from acpi)." but also "Generally, this metric is the **host energy consumption (from acpi) less the RAPL Package and DRAM**."
