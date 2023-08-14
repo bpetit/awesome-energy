@@ -87,7 +87,7 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 - [energymon](https://github.com/energymon/energymon)
 - [codecarbon](https://github.com/mlco2/codecarbon): python library to measure CPU/GPU consumption of machine learning or any ressource intensive python code
 - [hostghost](https://gitlab.com/localg-host/hostghost): to measure power consumption thanks to wattmeter and raspberry pi
-- [scaphandre](https://github.com/hubblo-org/scaphandre/): Electrical power consumption metrology agent. Let scaph dive and bring back the metrics that will help you make your systems and applications more sustainable !
+- [scaphandre](https://github.com/hubblo-org/scaphandre/): Electric power/energy consumption metrology agent. Let scaph dive and bring back the metrics that will help you make your systems and applications more sustainable !
 - [arduino wattmeter](https://circuitdigest.com/microcontroller-projects/arduino-wattmeter-to-measure-voltage-current-power-consumption)
 - [Green metrics tools from Green Coding Berling](https://github.com/green-coding-berlin/green-metrics-tool)
 - [Sentry Hardware OpenTelemetry Collector](https://www.sentrysoftware.com/docs/hws-otel-collector/2.0.00/index.html)
