@@ -1,6 +1,6 @@
 # ICT focussed power/energy publications, documentations and tools
 
-Based on my personnal researches. For environmental impact of ICT (final energy/electricity not being an environmental metric), see [Boavizta's blog](https://boavizta.org/en/blog).
+Based on my personnal researches. For environmental impact of ICT (final energy/electricity not being an environmental metric), see [Boavizta's blog](https://boavizta.org/en/blog) and [Hubblo's blog](https://hubblo.org/blog).
 
 ## ICT energy consumption
 
