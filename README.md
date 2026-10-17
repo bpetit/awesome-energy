@@ -54,6 +54,7 @@ Based on my personnal researches. For environmental impact of ICT (final energy/
 ### Energy production and smart grids
 
 - [Stanford bits and watts program publications](https://energy.stanford.edu/bitsandwatts/research/publications)
+- [Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning](https://www.mdpi.com/2071-1050/18/20/10574) ([DOI](https://doi.org/10.3390/su182010574), [Code](https://github.com/mahmoudsajjadi/Smart-Grid-Resilience-MARL)) - Decentralized multi-agent reinforcement learning for distribution feeder reconfiguration, renewable PV integration (+51% hosting capacity), and outage restoration (MDPI Sustainability, 2026)
 
 ### Tech blog posts
 
